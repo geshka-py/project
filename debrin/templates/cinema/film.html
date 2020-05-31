@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock title %}
+
+{% block content %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/film.css' %}">
+
+    <div class="title_container">
+        <img class="title_image" src="/media/{{ film.image }}">
+        <div class="text">
+            <b class="title_name">{{ film.name }}</b>
+            <p class="description">{{ film.description }}</p>
+            <p class="role">{{ film.role }}</p>
+            <p class="year">{{ film.year }}</p>
+        </div>
+    </div>
+
+{% endblock content %}
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="{% static 'css/home.css' %}">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+        <header class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="navbar_title">
+                        <a href="/home/" style="text-decoration: none;">Title</a>
+                    </div>
+                    <div class="nav" style="text-transform: uppercase;">
+                        <a class="link_item" href="/cinema/library">Кіно</a>
+                        <a class="link_item" href="/theatre/index">Театр</a>
+                        <a class="link_item" href="/programs/index">Телепрограмми</a>
+                        <a class="link_item" href="/interview/index">Інтерв'ю</a>
+                        <a class="link_item" href="#">Біографія</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    </head>
+
+    <body>
+       <main>
+            {% block content %}{% endblock content %}
+       </main>
+    </body>
+
+</html>

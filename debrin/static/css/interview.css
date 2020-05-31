@@ -1,0 +1,17 @@
+.img_container {
+    position: relative;
+    top: 130px;
+    overflow: hidden;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.interview {
+    position:
+}
+
+.inter_img {
+    position: absolute;
+}

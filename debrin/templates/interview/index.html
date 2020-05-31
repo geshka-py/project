@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}{% endblock title %}
+
+{% block content %}
+    {% load static %}
+        <link rel="stylesheet" href="{% static 'css/interview.css' %}">
+
+        <div class="container">
+            <div class="img_container">
+                <img src="{% static 'img/interview.jpeg' %}" alt="">
+            </div>
+            {% for x in interviews %}
+                <div class="interviews">
+                    <a href="/interview/interview">
+                        <h3>{{ x.name }}</h3>
+                        <img class="inter_img" src="" alt="">
+                        <p>{{ x.text }}</p>
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+{% endblock content %}

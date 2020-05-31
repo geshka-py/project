@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.title_image {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    height:600px;
+    top: 120px;
+    left:130px;
+}
+
+.text{
+    position: absolute;
+    top: 180px;
+    left: 620px;
+    width: 550px;
+    height: 1200px;
+}
+
+.title_name{
+    font-family: 'Diplomata', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    z-index: 44;
+}
+
+.description {
+    color: white;
+    padding: 20px 0px;
+    font-size: 23px;
+    width: 300px;
+    height: 300px;
+}
+
+.role {
+    color: white;
+}
+
+.year {
+    color: white
+}

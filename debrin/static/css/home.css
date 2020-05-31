@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diplomata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    margin-top: 20px;
+    width: 100%;
+
+    position: absolute;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar_title {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    width: 10%;
+}
+
+.link_item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color: white;
+}
+
+.title_image {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 62%;
+    top: 70px;
+    right: 70px;
+}
+
+.text{
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    width: 550px;
+    height: 300px;
+}
+
+.title_name{
+    font-family: 'Diplomata', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    z-index: 44;
+}
+
+.subtitle {
+    color: white;
+    padding: 20px 0px;
+    font-size: 23px;
+}
